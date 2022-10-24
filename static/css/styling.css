@@ -1,0 +1,68 @@
+:root {
+	--gradient1: #0feb51;
+	--gradient2: #e73c7e;
+	--gradient3: #23a6d5;
+	--gradient4: #e7eb11;
+}
+
+body {
+	background: linear-gradient(-45deg, var(--gradient1), var(--gradient2), var(--gradient3), var(--gradient4));
+	animation: bggrad 7s infinite;
+	background-size: 500% 500%;
+
+	margin: 3% 6% 3% 6%;
+	height: 100%;
+}
+
+.content {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-color: rgba(255, 255, 255, .25);
+	padding: 3%;
+	height: 100%;
+}
+
+.identity-image {
+	display: flex;
+	justify-content: center;
+}
+
+.identity-image > img {
+	min-width: 200px;
+	width: 20%;
+	border-radius: 45%;
+	border: black 3px inset;
+}
+
+.identity {
+	animation: fadein 1.5s ease-in;
+}
+
+.identity > h1 {
+	margin: 0;
+	text-align: center;
+}
+
+.navbar {
+	width: 100%;
+	display: block;
+	padding: 1% 0% 0 0%;
+	overflow: hidden;
+}
+
+.navbar > a {
+	text-decoration: none;
+	color: black;
+	padding: .5em;
+	margin: 0 .3em .5em 0;
+	border-radius: 5%;
+	background-color:rgba(255, 255, 255, .4);
+	float: left;
+}
+
+.navbar > a:hover {
+	background-color:rgba(255, 255, 255, .5); 
+}
+
+.navbar a:nth-last-of-type(-n+2) {
+	float: right;
+}

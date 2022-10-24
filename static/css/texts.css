@@ -1,0 +1,15 @@
+font.green:not(.hover) { color: green }
+
+font.green.hover:hover { color: green; }
+
+div.page a {
+	text-decoration: none;
+	font-weight: 600;
+	color: black;
+}
+
+div.page a:hover {
+	animation: linkhover .7s ease-in;
+	color: green;
+	text-decoration: underline;	
+}
