@@ -1,3 +1,4 @@
 
 User-agent: *
 Sitemap: https://benwager12.github.io/sitemap.xml
+# Disallow: /
